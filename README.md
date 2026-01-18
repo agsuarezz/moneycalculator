@@ -1,7 +1,6 @@
-<p style="text-align:left;">
 # Money Calculator
 
-Esta aplicación permite realizar conversiones de moneda utilizando una API externa, con capacidades añadidas de persistencia local para garantizar su funcionamiento en entornos sin conexión.
+Esta aplicación permite realizar conversiones de moneda utilizando una API externa, con capacidades añadidas de modo offline para garantizar su funcionamiento en entornos sin conexión.
 
 ## 1. Implementación de Modo Offline
 Se ha añadido la clase `FileStorage` para gestionar el almacenamiento de datos en archivos JSON, permitiendo que la aplicación se proteja contra fallos de red:
@@ -15,4 +14,3 @@ Se ha actualizado la clase `Desktop` para mejorar la usabilidad y estética de l
 * **Distribución (Layout):** Uso de `BoxLayout` y márgenes internos (`EmptyBorder`) para organizar los componentes de forma más limpia y profesional.
 * **Estilo de Componentes:** Mejora en la tipografía y el uso de colores de acento en el botón de acción para facilitar la interacción.
 * **Formato de Salida:** El campo de resultado ahora es de solo lectura y formatea el valor numérico a dos decimales, siguiendo el estándar de representación monetaria.
-</p>
